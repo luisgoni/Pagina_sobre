@@ -1,0 +1,221 @@
+/* Colocando um style no formado da letra da pagina */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: darkgray;
+    --cor-terciaria: aliceblue;
+    --cor-quarciaria: rgba(0, 0, 255, 0.473);
+    /* Colocanado os estilos de texto */
+    --fonte-primaria: "Krona One', sans-serif";
+    --fonte-secundaria: "Monstserrat", "sans-serif";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    /* Aplicando o root das cores */
+    background-color: var(--cor-primaria);
+    color:var(--cor-secundaria);
+}
+
+/* Titulo sobremin */
+.Titulo__2{   
+    gap: 32px;
+    padding: 21.5px ;
+    color: rgb(7, 58, 124);
+   
+}
+.cabecalho{
+    padding: 2% 0% 0% 38% ;
+    gap: 50px;
+    
+}
+
+.cabecalho__Menu{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    display:flex;
+}
+
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-primaria);
+    font-size: 22px;
+    font-weight: 606;
+    
+}
+
+.Titulo-destaque {
+    color: rgb(0, 17, 255);
+}
+/* Esse e o main da pagina  */
+.apresentacao{
+    /* Definindo margens para o pagina toda.tanto vertical e horizontal */
+    padding: 4% 15%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Definindo largura do conteudo(Texto da pagina) */
+.apresentacao__conteudo{
+    width: 615px;
+    font-family: "Krona One", serif;
+    /* utilizando FlexBox, separamos o texto, e separando por coluna */
+    display: flex;
+    flex-direction: column;
+    /* Espacamento entre cada estrutura de texto */
+    gap: 40px;
+}
+/* Alterando o tamanho da fonte do Titulo. */
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: "Krona One", serif;
+
+
+}
+/* Alterando o tamanho da fonte do Paragrafo */
+.apresentacao__conteudo__titulo__texto{
+    font-size: 26px;
+    font-family:  'Montserrat', sans-serif;
+
+}
+.Fonte_Link{
+    font-size: 26px;
+    font-family:  'Montserrat', sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+/* Estilizadno o subtitulo  */
+.apresentacao__Lins_Subtitulo{
+    font-family: 'Krona One',sans-serif;
+    font-weight: 400;
+    /* Tamanho da fonte */
+    font-size: 24px;
+}
+
+
+
+.apresentacao__link__links{
+    /* Alinahdo as imagens com o texto no centro e separando um do outro. */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+     border: 10px solid #22d4fd;
+    width:  200px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #F6F6F6;
+   padding: 21.5px 0 ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Alterando o bbotao quando o mao passar em cima. (hover)*/
+.apresentacao__link__links:hover 
+{
+    background-color: #272727;
+}
+
+.rodape{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(211, 37, 37);
+    background-color: rgb(8, 11, 53);
+    font-family: 'Montserrat', sans-serif;
+    /* Largura das distancia da borda */
+    padding: 24px;
+    /* Tamanho da escrita(fonte */
+    font-size: 24px;
+    /* Mudando a fonte claro escura. */
+    font-weight: 100;
+} 
+
+.rodapes{
+    text-align: center;
+    display: flex;
+    color: rgb(211, 37, 37);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.curriculo{
+    display: block;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 250;
+    text-align: center;
+    padding: 21.5px;
+}
+
+
+.Formacao{
+    display: block;
+    gap: 32px;
+    padding: 15.5px ;
+    color: aquamarine;
+
+
+}
+
+
+.Projetos{
+    gap: 32px;
+    padding: 15.5px ;
+    color: aquamarine;
+
+
+}
+
+.curriculo__imagem{
+    display: flex;
+    gap: 32px;
+    padding: 21.5px ;
+    color: aquamarine;
+
+}
+
+.Cabecalho__Redme{
+    gap: 32px;
+    display: flex;
+}
+
+.Experiencia__{
+    gap: 22px;
+    padding: 15.5px ;
+    color: aquamarine;
+
+
+}
+
+.Informacoe__{
+    gap: 32px;
+    padding: 12.5px 2% 0% 0% ;
+    color: aquamarine;
+    display: flex;
+    display: inline;
+    justify-content: space-between;
+
+}
+
+.apresenta{
+    gap: 32px;
+    padding: 12.5px 2% 0% 0% ;
+    justify-content: space-between;
+    padding: 15.5px ;
+    text-align: center;
+    display: flex;
+    color: rgb(211, 37, 37);
+    font-family: 'Montserrat', sans-serif;
+
+  
+}
