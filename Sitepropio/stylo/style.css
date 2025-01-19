@@ -232,7 +232,7 @@ body {
 
 @media (max-width: 768px) {
     .apresenta__imagem{
-        max-width: 50%; /* Ajusta a largura em telas pequenas */
+        max-width: 75%; /* Ajusta a largura em telas pequenas */
         margin: 0 auto; /* Centraliza a imagem */
     }
 }
