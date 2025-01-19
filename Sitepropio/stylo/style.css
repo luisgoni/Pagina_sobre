@@ -229,3 +229,10 @@ body {
         text-align: center;
     }
 }
+
+@media (max-width: 768px) {
+    .apresentacao__imagem {
+        max-width: 90%; /* Ajusta a largura em telas pequenas */
+        margin: 0 auto; /* Centraliza a imagem */
+    }
+}
