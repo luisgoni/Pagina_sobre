@@ -7,7 +7,7 @@
     --cor-quarciaria: rgba(0, 0, 255, 0.473);
     /* Colocanado os estilos de texto */
     --fonte-primaria: "Krona One', sans-serif";
-    --fonte-secundaria: "Montserrat", "sans-serif";
+    --fonte-secundaria: "Montserrat", sans-serif;
 }
 
 *{
@@ -46,7 +46,7 @@ body {
 
 .cabecalho__menu__link{
     font-family: var(--fonte-primaria);
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 606;
     
 }
@@ -62,10 +62,11 @@ body {
     align-items:center;
     justify-content: space-between;
     font-family: 'Courier New', Courier, monospace;
+    gap: 82px ;
 }
 /* Definindo largura do conteudo(Texto da pagina) */
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     font-family: "Krona One", serif;
     /* utilizando FlexBox, separamos o texto, e separando por coluna */
     display: flex;
@@ -75,19 +76,19 @@ body {
 }
 /* Alterando o tamanho da fonte do Titulo. */
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: "Krona One", serif;
 
 
 }
 /* Alterando o tamanho da fonte do Paragrafo */
 .apresentacao__conteudo__titulo__texto{
-    font-size: 26px;
+    font-size: 1.5rem;
     font-family:  'Montserrat', sans-serif;
 
 }
 .Fonte_Link{
-    font-size: 26px;
+    font-size: 1.5rem;
     font-family:  'Montserrat', sans-serif;
     display:flex;
     flex-direction: column;
@@ -101,7 +102,7 @@ body {
     font-family: 'Krona One',sans-serif;
     font-weight: 400;
     /* Tamanho da fonte */
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 
@@ -112,10 +113,10 @@ body {
     justify-content: center;
     gap: 16px;
      border: 10px solid #22d4fd;
-    width:  200px;
+    width:  50%;
     text-align: center;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #F6F6F6;
    padding: 21.5px 0 ;
@@ -138,7 +139,7 @@ body {
     /* Largura das distancia da borda */
     padding: 24px;
     /* Tamanho da escrita(fonte */
-    font-size: 24px;
+    font-size: 1.5rem;
     /* Mudando a fonte claro escura. */
     font-weight: 100;
 } 
@@ -152,7 +153,7 @@ body {
 
 .curriculo{
     display: block;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 250;
     text-align: center;
@@ -210,11 +211,8 @@ body {
 }
 
 .apresenta{
-    gap: 32px;
-    padding: 12.5px 2% 0% 0% ;
-    justify-content: space-between;
+    justify-content: center;
     padding: 15.5px ;
-    text-align: center;
     display: flex;
     color: rgb(211, 37, 37);
     font-family: 'Montserrat', sans-serif;
@@ -223,17 +221,39 @@ body {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 5% ;
+    }
+    
+    .cabecalho__Menu{
+        justify-content: center;
+    }
     .apresentacao {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
         margin: 0 auto;
+        padding: 5% ;
+    }
+    .apresentacao__conteudo{
+        width: 90vw;
+    }
+
+    .imagem__{
+        display: flex;
+        justify-content: center;
+        
     }
 }
 
 @media (max-width: 768px) {
     .apresenta__imagem{
-        max-width: 75%; /* Ajusta a largura em telas pequenas */
+        max-width: 90vw; /* Ajusta a largura em telas pequenas */
         margin: 0 auto; /* Centraliza a imagem */
+        padding: auto;
+    }
+    .Cabecalho__Redme{
+        /* Alinhando o texto do cabecalho no meio */
+        justify-content: center; 
     }
 }
