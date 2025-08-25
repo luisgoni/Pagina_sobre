@@ -1,7 +1,7 @@
-<h1> Pasta aonde fica minha primeira pagina web sobre mim </h1>
+<h1> Pasta onde fica minha primeira pagina web sobre mim </h1>
 
 <h2> 🆎 Sobre <h2/>
-<p> Neste Projeto realizei um site com algumas informacoes sobre mim e meu curriculo.  </p>
+<p> Neste Projeto realizei um site com algumas informacoes sobre mim e meu curriculo.(Basico)  </p>
 
 ## :atom:   Tecnologias Utilizadas: 
 <div>
