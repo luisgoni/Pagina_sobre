@@ -52,7 +52,7 @@ body {
 }
 
 .Titulo-destaque {
-    color: rgb(0, 17, 255);
+    color: rgb(0, 247, 255);
 }
 /* Esse e o main da pagina  */
 .apresentacao{
@@ -218,6 +218,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 
   
+}
+.habilidades__curriculo{
+    gap: 32px;
+    padding: 15.5px ;
+    color: aquamarine;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 250;
+    text-align: center;
+
 }
 
 /* Responsividade */
